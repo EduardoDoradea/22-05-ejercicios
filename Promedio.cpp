@@ -51,12 +51,12 @@ proyec = (proyecto*0.25);
 promedio = (resulc1 + resulc2 + resulp1 + resulp2 + labo + proyec);
 
 if(promedio<6){
-    cout<<"Usted dejo la materia xD. "<<promedio;
+    cout<<"Usted dejo la materia xD con: "<<promedio;
 } else if(promedio>6){
-cout<<"Usted paso la materia XD. "<<promedio;
+cout<<"Usted paso la materia XD con: "<<promedio;
 }
-else{
-    cout<<"Usted paso la materia "<<promedio;
+else{ 
+    cout<<"Usted paso la materia con: "<<promedio;
 }
     return 0;
 }

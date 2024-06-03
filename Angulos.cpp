@@ -10,16 +10,15 @@ que le muestre un mensaje de que tipo de ángulo es. */
 int main(){
 float angulo = 0.00; //Declaracion de variables "angulo".
 
-
 cout<<"Ingrese un angulo en grados para conocer si es agudo, obtuso o recto: "<<"\n";
 cin>>angulo; //Se le solicita al usuario el angulo al usuario y se guarda.
 
 if(angulo<90){ //Se crea una condicion para conocer si es un agudo obtuso o recto.
-    cout<<"El angulo que usted digito es agudo. "<<angulo<<"°";
+    cout<<"El angulo que usted digito es agudo. "<<angulo<<"grados";
 } else if(angulo==90){
-    cout<<"El angulo que usted digito es recto. "<<angulo<<"°";
+    cout<<"El angulo que usted digito es recto. "<<angulo<<"grados";
 } else{ 
-    cout<<"El angulo que usted digito es obtuso. "<<angulo<<"°";
+    cout<<"El angulo que usted digito es obtuso. "<<angulo<<"grados";
 }
 
     return 0;
